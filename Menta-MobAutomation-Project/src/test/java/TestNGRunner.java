@@ -11,7 +11,7 @@ public class TestNGRunner {
 			glue = { "com.cucumber.stepdefinition" },
 			strict = false,
 			dryRun = false,
-				tags = {"@AGSITgetDetails"},   
+				tags = {"@AndroidMenta_1"},   
 					//AndroidMenta_Sanity , AchTT
 				//HealthCheck_DEV97
 				 	plugin = {
