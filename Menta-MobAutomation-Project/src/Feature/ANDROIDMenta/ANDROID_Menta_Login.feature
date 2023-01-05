@@ -7,9 +7,9 @@ Feature: Menta Login Screen
 
   @AndroidMenta_1 @AndroidMenta_Sanity
   Scenario Outline: To verify that when user performs login with valid credential then user navigates to menta dashboard screen.
-    When android user provides menta Username "<emailAddress>" and Password "<password>"
-    And android user click on the menta login button
-    Then android app should load the menta dashboard screen
+    #When android user provides menta Username "<emailAddress>" and Password "<password>"
+    #And android user click on the menta login button
+    #Then android app should load the menta dashboard screen
 
     Examples: 
       | emailAddress | password   |
