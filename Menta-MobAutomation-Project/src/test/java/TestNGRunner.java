@@ -23,7 +23,7 @@ public class TestNGRunner {
 	public class TestNGAppRunner extends AbstractTestNGCucumberTests
 	{
 		@AfterSuite
-		public void sendMail() throws Exception  
+		public void sendMail() throws Exception
 		{ 
 			//SendMail.execute("InstallAndTestAppReport.htm");
 			LogCapture.info("Automation test report mail sent.....!!!!!!!!!");
